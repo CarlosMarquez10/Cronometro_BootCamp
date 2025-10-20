@@ -1,3 +1,10 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 main {
     font-family: 'Roboto Mono', monospace;
     position: relative;
@@ -25,7 +32,8 @@ main {
     height: 160px;
     left: calc(50% - 80px);
     top: calc(50% - 80px);
-    background-color: #1d1d1d;
+    background-color: #0f016b;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 }
 
 .seconds-sphere {
